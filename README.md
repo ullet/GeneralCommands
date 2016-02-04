@@ -1,16 +1,18 @@
-# TemporaryDirectory
+# GeneralCommands
 
-Simple Windows PowerShell Module to create and manage temporary directories.
+Simple Windows PowerShell Module of miscellaneous commands including:
+* create and manage temporary directories
+* set, update and delete environment variables
 
 ## How to install
 1. Download master.zip for this repository
-2. Extract the contents to a new folder named "TemporaryDirectory" inside your
+2. Extract the contents to a new folder named "GeneralCommands" inside your
    WindowsPowerShell\Modules folder.
 
 ## How to use
 
 ```PowerShell
-Import-Module TemporaryDirectory
+Import-Module GeneralCommands
 
 # Create new unique temporary directory
 $tmpDir = New-TemporaryDirectory
